@@ -1,0 +1,6 @@
+# Arquivo de orquestração de compilação do ZMK
+include:
+  - board: nice_nano_v2
+    shield: sofle_left
+  - board: nice_nano_v2
+    shield: sofle_right
