@@ -15,6 +15,20 @@
 - 58 x Boba U4T
 - 58 x XDA Keycaps
 
+
+## Split layout details
+
+- **Lado central (central): esquerdo (`sofle_left`)**
+  - USB habilitado
+  - Papel `CONFIG_ZMK_SPLIT_ROLE_CENTRAL`
+- **Lado periférico: direito (`sofle_right`)**
+  - Conecta via BLE ao lado central
+
+### Periféricos por metade
+
+- **Esquerda**: display OLED (I2C) e 1 encoder rotativo
+- **Direita**: display OLED (I2C) e 1 encoder rotativo
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
