@@ -14,3 +14,14 @@
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
 };
+
+&right_encoder {
+    status = "okay";
+};
+
+/ {
+    chosen {
+        /* OLED SSD1306 default em 0x3c (alguns módulos usam 0x3d) */
+        zmk,display = &oled;
+    };
+};
