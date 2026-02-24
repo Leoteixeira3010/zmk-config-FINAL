@@ -1,3 +1,2 @@
-&default_transform {
-    col-offset = <0>;
+/ {
 };
